@@ -1,0 +1,220 @@
+/* ---------------> NAVBAR <--------------- */
+
+.navbar {
+    background-color:#c1f1e0;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 1350px;
+    height: 6vw;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    color: #f5f5f5;
+}
+
+
+
+.logo li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.navbar .logo {
+    cursor: pointer;
+    position: absolute;
+    left: 100px;
+    height: 6vw;
+}
+
+.navbar .nav_links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: auto;
+    position: absolute;
+    right: 40px;
+}
+
+.navbar .nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar .nav_links li a {
+    transition: all 0.3s ease 0s;
+    color:#0D4C92;
+    text-decoration: none;
+}
+
+.nav_links .links_hover a {
+    display: flex;
+    padding: 9px 15px;
+    border-radius: 50px;
+}
+
+.navbar .nav_links .links_hover li a:hover {
+    color:#0D4C92;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.cta button {
+    padding: 9px 25px;
+    margin-left: 10px;
+    background-color: #CFF5E7;
+    border: none;
+    color: #0D4C92;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta button:hover {
+    color: none;
+    background-color:rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 850px) {
+    .menu-btn{
+        display: block;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        height: 50px;
+    }
+    .nav_links {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: #24252a;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    }
+    .nav_links li {
+        margin: 30px auto;
+        padding-top: 20px;
+        
+    }
+    p.footer-bottom {
+        font-size: 12.5px;
+    }
+}
+
+.Introduction{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-color: #CFF5E7;
+    height: 600px;
+    width: 100%;
+}
+.Overview{
+    position: absolute;
+    top: 300px;
+    font-size: 3vw;
+    width: 90vw;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: 1;
+    z-index: 1;
+    font-weight: 600;
+}
+
+.home_img {
+    opacity:0.7;
+    width:80vw;
+
+
+}
+
+.purpose{
+    width:1335px;
+}
+
+.purpose_img{
+    float:right;
+    width:40vw;
+    margin-right:7vw;
+    padding-top: 10vw;
+}
+
+.purpose_text{
+    font-size: 2.5vw;
+    padding-top: 10vw;
+    width:50vw;
+    margin-left: 8vw;
+}
+
+.purpose_text1{
+    font-size: 2.5vw;
+    padding-top: 5vw;
+    width:50vw;
+    margin-left: 8vw;
+}
+
+.purpose_text2{
+    font-size: 2.5vw;
+    padding-top: 1.5vw;
+    width:50vw;
+    margin-left: 8vw;
+}
+
+
+.model{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.model_heading{
+    margin-top: 1vw;
+    font-size: 50px;
+    color: #0D4C92;
+    
+}
+
+.model_text{
+    font-size: 20px;
+    margin-top: 3vw;
+    padding-left: 6.5vw;
+}
+
+.footer{
+    background-color: #CFF5E7;
+    width: 100%;
+    
+}
+
+.footer_text {
+    text-align: center;
+}
+
+.footer_head {
+    text-align: center;
+}
